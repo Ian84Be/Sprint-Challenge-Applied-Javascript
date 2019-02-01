@@ -32,13 +32,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The Document Object Model is a language neutral API which provides a bridge between your code and the html being represented in the browser window.
+
 2. What is an event?
+
+An event can be any number of general or specific actions happening within the browser window such as a mouse click or keystroke.
 
 3. What is an event listener?
 
+An event listener looks for a defined event and creates a JavaScript Object when that event occurs, it then passes the Object to a callback function.
+
 4. Why would we convert a NodeList into an Array?
 
+Converting a NodeList into an Array gives us access to all of the Array methods built into JavaScript.
+
 5. What is a component?
+
+A component is a customizable, reusable piece of code which usually performs one specific function.
 
 ### Git Set up
 

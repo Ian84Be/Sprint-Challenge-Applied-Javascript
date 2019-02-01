@@ -1,5 +1,5 @@
-class TabLink {
-  constructor(tabElement){
+// class TabLink {
+  // constructor(tabElement){
     // assign this.tabElement to the tabElement DOM reference
     // this.tabElement;
     
@@ -68,4 +68,8 @@ class TabCard {
 - In your .forEach() method's callback function, return a new instance of TabLink and pass in each tab as a parameter
 
 */
-let tabs = document.querySelectorAll();
+// let tabs = document.querySelectorAll();
+let tester = document.querySelectorAll('p');
+console.log(tester);
+let tester2 = Array.from(tester);
+console.log(tester2);
