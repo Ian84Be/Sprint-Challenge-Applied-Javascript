@@ -8,7 +8,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="./components/Tabs/Tabs.js" async></script>
-  <!-- <script src="./components/Carousel/Carousel.js" async></script> -->
+  <script src="./components/Carousel/Carousel.js" async></script>
 </head>
 
 <body>
@@ -50,19 +50,38 @@
 
   <!-- STRETCH GOAL: ONLY UNCOMMENT THIS WHEN YOU ARE FINISHED WITH THE MAIN OBJECTIVE -->
   <!-- CAROUSEL COMPONENT -->
-  <!-- <div class="carousel">
-    <div class="left-button"><</div>
-    <img src="./assets/carousel/mountains.jpeg" />
+  <div class="carousel">
+    <div class="button left-button" data-button="left"><</div>
+    <img class="img-active" src="./assets/carousel/mountains.jpeg" />
     <img src="./assets/carousel/computer.jpeg" />
     <img src="./assets/carousel/trees.jpeg" />
     <img src="./assets/carousel/turntable.jpeg" />
-    <div class="right-button">></div>
-  </div> -->
+    <div class="button right-button" data-button="right">></div>
+  </div>
 
   <!-- CARDS COMPONENT -->
   <div class="cards-container">
 
     <!-- CARD COMPONENTS -->
+    <div class="card" data-tab="technology">
+      <div class="headline">Making clicky sounds while looking at birds</div>
+      <div class="author">
+        <div class="img-container">
+          <img src="./assets/cat.jpg" />
+        </div>
+        <span>By Mister Whiskers</span>
+      </div>
+    </div>
+    <div class="card" data-tab="technology">
+      <div class="headline">Pooping in a box: better than pooping outside? Sometimes, but not always.</div>
+      <div class="author">
+        <div class="img-container">
+          <img src="./assets/cat.jpg" />
+        </div>
+        <span>By Mister Whiskers</span>
+      </div>
+    </div>
+
     <div class="card" data-tab="javascript">
       <div class="headline">ES8: The Next Step in the Evolution of Javascript and What it Means For Your Projects</div>
       <div class="author">

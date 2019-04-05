@@ -267,8 +267,7 @@ body {
     width: 1200px;
   }
 }
-.carousel .left-button,
-.carousel .right-button {
+.carousel .button {
   display: flex;
   justify-content: center;
   align-items: none;
@@ -282,8 +281,7 @@ body {
   height: 50px;
   cursor: pointer;
 }
-.carousel .left-button:hover,
-.carousel .right-button:hover {
+.carousel .button:hover {
   color: #333;
   background-color: #fff;
   border: 2px solid #333;
@@ -300,5 +298,9 @@ body {
 }
 .carousel img {
   width: 100%;
+  border: 3px solid red;
   display: none;
+}
+.carousel img.img-active {
+  display: block;
 }
